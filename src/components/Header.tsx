@@ -1,5 +1,4 @@
 'use client'
-import Gradient from '@/utils/Gradient'
 import React from 'react'
 
 const Header = () => {
@@ -14,10 +13,6 @@ const Header = () => {
           <p className='font-mono'>Work</p>
           <p className='font-mono'>Contact</p>
         </div>
-        {/* <div className='absolute top-1 left-1 z-30 animate-spin ease-out'>
-          <Gradient />
-        </div> */}
-
       </div>
 
     </>

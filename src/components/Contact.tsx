@@ -10,7 +10,7 @@ function Contact() {
     return (
         <div className='h-[20rem] bg-black'>
             <motion.div>
-                <p className=' text-4xl font-semibold font-spaceGrotesk text-white text-center'>Let's get in Touch</p>
+                <p className='text-4xl font-semibold font-spaceGrotesk text-white text-center'>Let`&aposs get in Touch</p>
                 <div className='flex items-center gap-2'>
                     <Mail />
                     <p className='text-white text-sm font-mono'>Karthik.swamy1001@gmail.com</p>
