@@ -1,0 +1,7 @@
+export {default as Header} from './Header'
+export {default as About} from './About'
+export {default as PortFolioImage} from './PortFolioImage'
+export {default as EntryTag} from './EntryTag'
+export {default as Intro} from './Intro'
+export {default as TechStack} from './TechStack'
+export {default as Contact} from './Contact'
