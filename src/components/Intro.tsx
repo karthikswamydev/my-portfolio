@@ -32,7 +32,7 @@ function Intro() {
                     viewport={{ once: true }}>
                     <h2 className="text-3xl font-spaceGrotesk font-bold text-white">Quick Intro</h2>
                     <motion.p className="text-lg font-thin font-spaceGrotesk text-white mt-2">
-                        Full Stack Developer with 3 years of experience building scalable and intuitive web applications. Proficient in React.js for dynamic frontends and Node.js for efficient backend solutions. Skilled in API integrations, authentication (OAuth, JWT), and performance optimization. Passionate about creating seamless user experiences and writing clean, maintainable code.
+                        Full Stack Developer with 3+ years of experience building scalable and intuitive web applications. Proficient in React.js for dynamic frontends and Node.js for efficient backend solutions. Skilled in API integrations, authentication (OAuth, JWT), and performance optimization. Passionate about creating seamless user experiences and writing clean, maintainable code.
                     </motion.p>
                 </motion.div>
             </motion.div>
@@ -45,11 +45,14 @@ function Intro() {
                 </motion.div>
                 <motion.div className="flex-1 min-w-0 p-6 bg-black  rounded-2xl shadow-lg">
                     <h2 className="text-3xl font-spaceGrotesk font-bold text-white">Work Experience</h2>
+                    <motion.p className="font-spaceGrotesk text-lg font-thin text-white mt-2">
+                        MAKO IT LAB Pvt.Ltd - Frontend Developer
+                    </motion.p>
                     <motion.p className="text-lg font-thin font-spaceGrotesk text-white mt-2">
-                        MAKO IT LAB Pvt.Ltd - Full Stack Developer
+                        TRONIQ'S RATIONALE Pvt.Ltd - Frontend Engineer
                     </motion.p>
                     <motion.p className="text-lg font-spaceGrotesk text-white mt-2">
-                        3 years
+                        3+ years
                     </motion.p>
                 </motion.div>
 
@@ -60,7 +63,7 @@ function Intro() {
                     viewport={{ once: true }}>
                     <h2 className="text-3xl font-spaceGrotesk font-bold text-white">Tech Stack & Tools</h2>
                     <motion.p className="text-lg  font-thin font-spaceGrotesk text-white mt-2">
-                        Javascript, React JS , Next JS , Tailwind CSS , Node Js,Nest JS, Postgres, Framer-Motion, React Query , React Hook Forms, AWS Lambda ,AWS API Gateway, Git, Material UI, Zustand , Redux ,Content API
+                        Javascript | React JS | Next JS | Tailwind CSS | Node Js | Nest JS | Postgres | Framer-Motion | React Query | GraphQL | React Hook Forms | AWS Lambda AWS API Gateway | Git |Material UI | Zustand | Redux | Content API
                     </motion.p>
                     <motion.div className='flex'>
                         <JS />

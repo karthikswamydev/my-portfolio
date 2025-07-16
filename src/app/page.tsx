@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <div className="bg-white">
-        <div className="">
+        <div>
           <About />
         </div>
         <div className="">
-          <Footer />
+          {/* <Footer /> */}
         </div>
         <div className="">
           <Intro />
