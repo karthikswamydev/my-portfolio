@@ -9,7 +9,7 @@ export default function Home() {
           <About />
         </div>
         <div className="">
-          {/* <Footer /> */}
+          <Footer />
         </div>
         <div className="">
           <Intro />

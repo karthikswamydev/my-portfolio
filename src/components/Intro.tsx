@@ -49,7 +49,7 @@ function Intro() {
                         MAKO IT LAB Pvt.Ltd - Frontend Developer
                     </motion.p>
                     <motion.p className="text-lg font-thin font-spaceGrotesk text-white mt-2">
-                        TRONIQ'S RATIONALE Pvt.Ltd - Frontend Engineer
+                        {"TRONIQ'S RATIONALE Pvt.Ltd - Frontend Engineer"}
                     </motion.p>
                     <motion.p className="text-lg font-spaceGrotesk text-white mt-2">
                         3+ years
