@@ -2,7 +2,7 @@ import React from 'react'
 
 function Vector() {
     return (
-        <svg width="495" height="424" viewBox="0 0 495 424" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg className="w-full h-auto max-w-[495px]" viewBox="0 0 495 424" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="495" height="424" fill="url(#pattern0_2603_413)" />
             <defs>
                 <pattern id="pattern0_2603_413" patternContentUnits="objectBoundingBox" width="1" height="1">

@@ -16,11 +16,11 @@ import React from 'react'
 
 function TechStack() {
     return (
-        <div className='bg-black h-[40rem]'>
-            <div className='flex justify-center items-center'>
-                <div className='flex flex-col gap-4'>
-                    <motion.p className='text-white font-spaceGrotesk text-5xl font-thin'>Tech</motion.p>
-                    <div className='flex space-x-4'>
+        <div className='bg-black min-h-[40rem] h-auto py-10 flex justify-center items-center'>
+            <div className='container mx-auto px-4'>
+                <div className='flex flex-col gap-8 items-center'>
+                    <motion.p className='text-white font-spaceGrotesk text-5xl font-thin text-center'>Tech</motion.p>
+                    <div className='flex flex-wrap justify-center gap-6'>
                         <div className='transform translate-y-2 hover:scale-110 transition duration-500'>
                             <JS />
                         </div>
@@ -42,8 +42,6 @@ function TechStack() {
                         <div className='transform translate-y-2 hover:scale-110 transition duration-500'>
                             <Git />
                         </div>
-                    </div>
-                    <div className='flex space-x-4'>
                         <div className='transform translate-y-2 hover:scale-110 transition duration-500'>
                             <Ec2 />
                         </div>
@@ -66,8 +64,6 @@ function TechStack() {
                             <NextIcon />
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

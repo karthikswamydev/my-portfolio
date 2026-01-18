@@ -2,7 +2,7 @@ import React from 'react'
 
 function Gradient() {
     return (
-        <svg width="760" height="730" viewBox="0 0 760 730" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-full h-auto" viewBox="0 0 760 730" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g style={{ mixBlendMode: 'color-dodge' }} filter="url(#filter0_f_1_16)">
                 <path d="M303.389 601.678C428.191 648.404 567.241 585.111 613.967 460.31L623.931 433.697C670.657 308.896 607.364 169.845 482.563 123.119L456.945 113.528C332.143 66.8018 193.093 130.095 146.367 254.896L136.403 281.509C89.6771 406.31 152.97 545.361 277.771 592.087L303.389 601.678Z" fill="url(#paint0_radial_1_16)" />
             </g>

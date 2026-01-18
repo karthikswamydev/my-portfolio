@@ -12,8 +12,8 @@ import React from 'react'
 
 function Intro() {
     return (
-        <motion.div className='bg-black gap-y-4 p-20'>
-            <motion.div className='flex flex-row gap-6 relative'>
+        <motion.div className='bg-black gap-y-4 p-6 md:p-20'>
+            <motion.div className='flex flex-col md:flex-row gap-6 relative'>
                 <motion.div className="flex-1 min-w-0 p-6 bg-black rounded-2xl shadow-lg" initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
@@ -26,7 +26,7 @@ function Intro() {
                     <motion.p className='text-lg  font-thin font-spaceGrotesk text-white'> Sri Venkateswara College of Engineering, Sriperambadur.</motion.p>
 
                 </motion.div>
-                <motion.div className="w-[0.5px] bg-white"></motion.div>
+                <motion.div className="hidden md:block w-[0.5px] bg-white"></motion.div>
                 <motion.div className="flex-1 min-w-0 p-6 bg-black rounded-2xl shadow-lg" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     viewport={{ once: true }}>
@@ -37,10 +37,10 @@ function Intro() {
                 </motion.div>
             </motion.div>
 
-            <motion.div className='flex flex-row gap-6 mt-10' initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }}
+            <motion.div className='flex flex-col md:flex-row gap-6 mt-6 md:mt-10' initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}>
-                <motion.div className='z-10 absolute top-1 left-9 animate-spin-slow '>
+                <motion.div className='z-10 absolute top-1 left-9 animate-spin-slow hidden md:block'>
                     <Gradient />
                 </motion.div>
                 <motion.div className="flex-1 min-w-0 p-6 bg-black  rounded-2xl shadow-lg">
@@ -56,7 +56,7 @@ function Intro() {
                     </motion.p>
                 </motion.div>
 
-                <motion.div className="w-[0.5px] bg-white"></motion.div>
+                <motion.div className="hidden md:block w-[0.5px] bg-white"></motion.div>
 
                 <motion.div className="flex-1 min-w-0 p-6 bg-black  rounded-2xl shadow-lg" whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
@@ -65,7 +65,7 @@ function Intro() {
                     <motion.p className="text-lg  font-thin font-spaceGrotesk text-white mt-2">
                         Javascript | React JS | Next JS | Tailwind CSS | Node Js | Nest JS | Postgres | Framer-Motion | React Query | GraphQL | React Hook Forms | AWS Lambda AWS API Gateway | Git |Material UI | Zustand | Redux | Content API
                     </motion.p>
-                    <motion.div className='flex'>
+                    <motion.div className='flex flex-wrap gap-2 mt-4'>
                         <JS />
                         <TypeScript />
                         <ReactIcon />

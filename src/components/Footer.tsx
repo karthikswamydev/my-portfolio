@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <div
-      className="bg-black h-screen flex justify-center items-center">
+      className="bg-black h-screen flex justify-center items-center overflow-hidden">
       <EntryTag />
     </div>
   );
